@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6468287009688291418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6468287009688291419}
+  - component: {fileID: 6468287009688291420}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6468287009688291419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6468287009688291418}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.7561445, y: 0.34668916, z: 0.07409194}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6468287009688291420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6468287009688291418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e6c322c7b111774aa7e9c1d841f846b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tanks:
+  - {fileID: 4252992604687139234, guid: d38bc7ce368fb974eb709ce25bc5d89c, type: 3}
+  - {fileID: 7971687490779613460, guid: b73e938dc5a12724eac8f717a9bc4717, type: 3}
+  - {fileID: 1860806810189096676, guid: 1cf66b26a0e67c64cada2b3922e9c670, type: 3}
+  spawns:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ScorePrefab: {fileID: 7010347788911256111, guid: 29c1eabb29ad69e49bd407291ee2baf7, type: 3}
+  DefaultDebugPlayerInfo: {fileID: 5507711415964620654, guid: f106101d8c92bdf4fb08c3bb26f766f0, type: 3}
+  netGame: {fileID: 0}
